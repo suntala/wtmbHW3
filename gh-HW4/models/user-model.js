@@ -6,6 +6,6 @@ module.exports = class User {
     }
 
     static create(obj) {
-        return new User(obj.id, obj.username);
+        return new User(obj.id, obj.username, obj.homework);
     }
 }
