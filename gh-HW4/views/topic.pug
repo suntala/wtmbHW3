@@ -1,0 +1,6 @@
+extends layout
+
+block content
+    h1 Topics
+    each topic in topics
+        p #{topic.id}. Instructions for "#{topic.description}" can be found in video# #{topic.weekNumber} at the #{topic.timecode} mark. Logged by: #{topic.logger}.

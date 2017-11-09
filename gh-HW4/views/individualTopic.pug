@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    if topic
+        h1 This is "#{topic.description}"
+    else
+        h1 This topic is not yet in our database.  Why not add it?

@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1 Weeks
+    each week in weeks
+        p #{week.id} covers the following topics: #{week.topics} 
+
+//- figure out how to display all items from database
+//- figure out why the browser doesn't update multiple pages at once
