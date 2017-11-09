@@ -2,7 +2,7 @@ module.exports = class User {
     constructor(id, username, homework = []) {
         this.id = id
         this.username = username
-        this.homework = []
+        this.homework = homework
     }
 
     static create(obj) {
