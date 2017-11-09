@@ -1,5 +1,5 @@
 module.exports = class Week {
-    constructor(id, weekNumber) {
+    constructor(id, weekNumber, topics = [], hwSubmitted = []) {
         this.id = id
         this.weekNumber = weekNumber
         this.topics = []
