@@ -7,6 +7,6 @@ module.exports = class Week {
     }
 
     static create(obj) {
-        return new Week(obj.weekNumber);
+        return new Week(obj.id, obj.weekNumber, obj.topics, obj.hwSubmitted);
     }
 }
