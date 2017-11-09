@@ -2,8 +2,8 @@ module.exports = class Week {
     constructor(id, weekNumber, topics = [], hwSubmitted = []) {
         this.id = id
         this.weekNumber = weekNumber
-        this.topics = []
-        this.hwSubmitted = []
+        this.topics = topics
+        this.hwSubmitted = hwSubmitted
     }
 
     static create(obj) {
